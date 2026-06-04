@@ -1,0 +1,53 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.skill-card,
+.project-card,
+.cert-card,
+.education-card,
+.timeline-item {
+  background: #111827;
+  padding: 2rem;
+  border-radius: 20px;
+  transition: 0.3s;
+  border: 1px solid #1f2937;
+}
+
+.skill-card:hover,
+.project-card:hover,
+.cert-card:hover {
+  transform: translateY(-8px);
+  border-color: #22d3ee;
+}
+
+.skill-card h3,
+.project-card h3,
+.cert-card h3 {
+  color: #22d3ee;
+  margin-bottom: 1rem;
+}
+
+.tech-stack {
+  margin-top: 1rem;
+  color: #9ca3af;
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #22d3ee;
+  color: black;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
